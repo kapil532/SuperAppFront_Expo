@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "My-OTA",
-    "slug": "My-OTA",
+    "name": "SuperAppFront_Expo",
+    "slug": "my-ota",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.saicharang.myota"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e190756-b32a-47c7-8248-35d07d6c9bba"
+      }
+    },
+    "owner": "saicharang",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6e190756-b32a-47c7-8248-35d07d6c9bba"
     }
   }
 }
